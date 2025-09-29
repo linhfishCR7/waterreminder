@@ -1,0 +1,1 @@
+// Cordova.js will be injected by the platform
