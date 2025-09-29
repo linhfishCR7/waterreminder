@@ -1,0 +1,27 @@
+# Cordova
+platforms/
+plugins/
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build
+www/cordova.js
+www/cordova_plugins.js
+www/plugins/
+
+# Temporary
+.tmp/
+.temp/
