@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content: https:;">
+    <title>Water Reminder</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header-content">
+                <div class="app-icon">💧</div>
+                <div class="app-info">
+                    <h1 class="app-title">Water Reminder</h1>
+                    <p class="app-subtitle">Hydration tracking with customizable reminders, intake goals, and progress visualization</p>
+                </div>
+            </div>
+        </header>
+        
+        <main class="main-content">
+            <div class="welcome-section">
+                <div class="welcome-icon">💧</div>
+                <h2>Welcome to Water Reminder</h2>
+                <p class="welcome-description">Hydration tracking with customizable reminders, intake goals, and progress visualization</p>
+                
+                <div class="features-list">
+                    <div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span class="feature-text">Hydration tracking</span>
+                        </div><div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span class="feature-text">Custom reminders</span>
+                        </div><div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span class="feature-text">Intake goals</span>
+                        </div><div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span class="feature-text">Progress charts</span>
+                        </div>
+                </div>
+                
+                <button class="get-started-btn" id="getStartedBtn">Get Started</button>
+            </div>
+            
+            <div class="app-content" id="appContent" style="display: none;">
+                <div class="content-section">
+                    <h3>Water Reminder is Ready!</h3>
+                    <p>This is where your app's main functionality will be implemented.</p>
+                    
+                    <div class="action-buttons">
+                        <button class="btn btn-primary" id="primaryAction">Primary Action</button>
+                        <button class="btn btn-secondary" id="secondaryAction">Secondary Action</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2024 Water Reminder. Built with Apache Cordova.</p>
+        </footer>
+    </div>
+    
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
